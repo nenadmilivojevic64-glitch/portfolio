@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tvoj Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container">
+      <h1>Zdravo, ja sam <span class="highlight">Nenad</span></h1>
+      <p>Frontend developer koji voli čisti kod i moderan dizajn.</p>
+      <a href="#projects" class="btn">Pogledaj projekte</a>
+    </div>
+  </header>
+
+  <!-- O MENI -->
+  <section id="about" class="about container">
+    <h2>O meni</h2>
+    <p>
+      Strastveni sam web developer sa znanjem HTML-a, CSS-a i JavaScript-a.
+      Volim da pravim moderne i funkcionalne web stranice koje ostavljaju utisak.
+    </p>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Git</span>
+      <span>React (učim)</span>
+    </div>
+    <a href="#" class="btn secondary">Preuzmi CV</a>
+  </section>
+
+  <!-- PROJEKTI -->
+  <section id="projects" class="projects container">
+    <h2>Projekti</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x250" alt="Project 1" />
+        <h3>Naziv projekta</h3>
+        <p>Kratak opis projekta.</p>
+        <div class="links">
+          <a href="#">Demo</a>
+          <a href="#">Code</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x250" alt="Project 2" />
+        <h3>Naziv projekta</h3>
+        <p>Kratak opis projekta.</p>
+        <div class="links">
+          <a href="#">Demo</a>
+          <a href="#">Code</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section id="contact" class="contact container">
+    <h2>Kontakt</h2>
+    <p>Slobodno mi pošalji poruku ili me zaprati na mrežama!</p>
+    <form id="contact-form">
+      <input type="text" placeholder="Ime" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Poruka" required></textarea>
+      <button type="submit" class="btn">Pošalji</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 [Tvoje Ime]. Napravljeno sa ❤️ uz HTML, CSS i JS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
